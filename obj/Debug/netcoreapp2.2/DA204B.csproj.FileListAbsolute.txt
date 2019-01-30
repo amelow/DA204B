@@ -1,0 +1,11 @@
+/Users/amelielowe/Documents/VisualStudio/DA204B/bin/Debug/netcoreapp2.2/DA204B.deps.json
+/Users/amelielowe/Documents/VisualStudio/DA204B/bin/Debug/netcoreapp2.2/DA204B.runtimeconfig.json
+/Users/amelielowe/Documents/VisualStudio/DA204B/bin/Debug/netcoreapp2.2/DA204B.runtimeconfig.dev.json
+/Users/amelielowe/Documents/VisualStudio/DA204B/bin/Debug/netcoreapp2.2/DA204B.dll
+/Users/amelielowe/Documents/VisualStudio/DA204B/bin/Debug/netcoreapp2.2/DA204B.pdb
+/Users/amelielowe/Documents/VisualStudio/DA204B/obj/Debug/netcoreapp2.2/DA204B.csprojAssemblyReference.cache
+/Users/amelielowe/Documents/VisualStudio/DA204B/obj/Debug/netcoreapp2.2/DA204B.csproj.CoreCompileInputs.cache
+/Users/amelielowe/Documents/VisualStudio/DA204B/obj/Debug/netcoreapp2.2/DA204B.AssemblyInfoInputs.cache
+/Users/amelielowe/Documents/VisualStudio/DA204B/obj/Debug/netcoreapp2.2/DA204B.AssemblyInfo.cs
+/Users/amelielowe/Documents/VisualStudio/DA204B/obj/Debug/netcoreapp2.2/DA204B.dll
+/Users/amelielowe/Documents/VisualStudio/DA204B/obj/Debug/netcoreapp2.2/DA204B.pdb
