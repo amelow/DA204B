@@ -6,6 +6,7 @@ namespace DA204B
      static void Main(string[] args){
          PetApplication pet = new PetApplication();
           pet.ReadName();
+          pet.ReadAge();
      }
 
      }
