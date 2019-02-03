@@ -7,6 +7,7 @@ namespace DA204B
          PetApplication pet = new PetApplication();
           pet.ReadName();
           pet.ReadAge();
+          pet.CheckIsFemale();
      }
 
      }

@@ -17,10 +17,21 @@ namespace DA204B
        public int ReadAge(){
            Console.WriteLine("How old is "+ name + "?");
            age = int.Parse(Console.ReadLine()); 
+            Console.WriteLine(name+ " is "+ age + " years old");
         return age;
         }
-        private bool CheckIsFemale(){
+        public bool CheckIsFemale(){
+            Console.WriteLine("Is "+ name+ "female? Answer with yes or no!");
+            string checkYesOrNo = Console.ReadLine();
+            if(checkYesOrNo=="yes"||checkYesOrNo=="Yes"){
+            Console.WriteLine("She is a female");
             return true;
+            }
+            else if (checkYesOrNo=="no"||checkYesOrNo=="No"){
+            Console.WriteLine("He is a male");
+            }
+            return false;
+         
         }
         private static void DisplayInformation(){
 
