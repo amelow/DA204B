@@ -21,7 +21,7 @@ namespace DA204B
         return age;
         }
         public bool CheckIsFemale(){
-            Console.WriteLine("Is "+ name+ "female? Answer with yes or no!");
+            Console.WriteLine("Is "+ name+ " female? Answer with yes or no!");
             string checkYesOrNo = Console.ReadLine();
             if(checkYesOrNo=="yes"||checkYesOrNo=="Yes"){
             Console.WriteLine("She is a female");
@@ -29,6 +29,8 @@ namespace DA204B
             }
             else if (checkYesOrNo=="no"||checkYesOrNo=="No"){
             Console.WriteLine("He is a male");
+            }else{
+             Console.WriteLine("Please answer with only Yes or No");   
             }
             return false;
          
