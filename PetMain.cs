@@ -8,6 +8,7 @@ namespace DA204B
           pet.ReadName();
           pet.ReadAge();
           pet.CheckIsFemale();
+          pet.DisplayInformation();
      }
 
      }
