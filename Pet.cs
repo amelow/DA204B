@@ -3,11 +3,8 @@
 namespace DA204B
 {
     public class PetApplication {
-         private string name; private int age; private bool isFemale;
-          //ReadName();
-        static void Main(string[] args){
-    
-        }
+         private string name; //private int age; private bool isFemale;
+         
         public string ReadName(){
             Console.WriteLine("What is the name of your pet? ");
             name = Console.ReadLine();
