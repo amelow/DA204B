@@ -1,0 +1,15 @@
+﻿<Properties StartupConfiguration="{D1614F53-EE67-45E6-B173-82F6590E4D50}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Movie.cs/MovieMain.cs">
+    <Files>
+      <File FileName="Movie.cs/MovieMain.cs" Line="1" Column="1" />
+      <File FileName="Movie.cs/Movie.cs" Line="9" Column="6" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Movie.cs FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
