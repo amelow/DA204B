@@ -16,6 +16,7 @@ namespace Assignment2
         private void ShowProgramInfo(){
             Console.WriteLine("\n\n +++++++++ Summation of whole numbers +++++++++");
             Console.WriteLine("\n             Using a for-statement \n");
+            Console.WriteLine("++++++++++++++++++++++++++++++++++++++++++++++++++ ");
         }
         private void ReadInput(){
             Console.WriteLine("How many numbers do you want to add?");
@@ -30,7 +31,9 @@ namespace Assignment2
 
         }
         private void DisplayResult(){
-            Console.WriteLine("Sum :"+ sumOfNumbers);
+            Console.WriteLine("Sum of all numbers:"+ sumOfNumbers);
+            Console.WriteLine("++++++++++++++++++++++++++++++++++++++++++++++++++ \n");
+
         }
     }
 }
