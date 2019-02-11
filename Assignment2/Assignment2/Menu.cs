@@ -1,10 +1,13 @@
 ﻿using System;
 namespace Assignment2
 {
-    public class Menu
-    {
+
+    public class Menu{
+        private int choice;
+
         public void Start(){
             ShowMenu();
+            readUserInput();
         }
         private void ShowMenu(){
             Console.WriteLine("----------------------------------------");
@@ -18,6 +21,11 @@ namespace Assignment2
             Console.WriteLine("Exit the program: 0");
             Console.WriteLine("\n ----------------------------------------");
         }
-       
+      private void readUserInput(){
+            Console.WriteLine("Your choice: ");
+            choice = int.Parse(Console.ReadLine());
+
+
+        }
     }
 }
