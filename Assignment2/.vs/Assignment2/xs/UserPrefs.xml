@@ -1,8 +1,8 @@
 ﻿<Properties StartupConfiguration="{ED1607A1-7078-4FA4-AAAD-8F61EA830946}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assignment2/Menu.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assignment2/WholeNumbersForAdd.cs">
     <Files>
-      <File FileName="Assignment2/MainProgram.cs" Line="10" Column="26" />
-      <File FileName="Assignment2/Menu.cs" Line="6" Column="28" />
+      <File FileName="Assignment2/Menu.cs" Line="41" Column="48" />
+      <File FileName="Assignment2/WholeNumbersForAdd.cs" Line="7" Column="41" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

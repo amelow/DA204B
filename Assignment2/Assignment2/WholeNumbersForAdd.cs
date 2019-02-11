@@ -1,10 +1,16 @@
 ﻿using System;
 namespace Assignment2
 {
-    public class WholeNumbersForAdd
-    {
-        public WholeNumbersForAdd(){
-            Console.WriteLine("In WholeNumbersForAdd");
+    public class WholeNumbersForAdd{
+        private int sumOfNumbers;
+        private int numOfInput;
+       
+         public void Start(){
+            Console.WriteLine("In Class WholeNumbersForAdd");
+            ReadInput();
+        }
+        private void ReadInput(){
+
         }
     }
 }

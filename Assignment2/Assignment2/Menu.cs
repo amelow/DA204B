@@ -38,6 +38,7 @@ namespace Assignment2
                     break;
                 case 1:
                     WholeNumbersForAdd wholeNumbersForAdd = new WholeNumbersForAdd();
+                    wholeNumbersForAdd.Start();
                     break;
                 case 2:
                     FloatingPointsNumberWhileAdd floatingPointsNumberWhileAdd = new FloatingPointsNumberWhileAdd();
