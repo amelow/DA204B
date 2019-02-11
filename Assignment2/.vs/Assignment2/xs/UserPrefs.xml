@@ -1,13 +1,8 @@
 ﻿<Properties StartupConfiguration="{ED1607A1-7078-4FA4-AAAD-8F61EA830946}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assignment2/WorkingSchedule.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assignment2/Menu.cs">
     <Files>
       <File FileName="Assignment2/MainProgram.cs" Line="10" Column="26" />
-      <File FileName="Assignment2/Menu.cs" Line="48" Column="17" />
-      <File FileName="Assignment2/WholeNumbersForAdd.cs" Line="7" Column="53" />
-      <File FileName="Assignment2/FloatingPointsNumberWhileAdd.cs" Line="7" Column="13" />
-      <File FileName="Assignment2/CurrencyConverter.cs" Line="7" Column="55" />
-      <File FileName="Assignment2/TemperatureTable.cs" Line="7" Column="13" />
-      <File FileName="Assignment2/WorkingSchedule.cs" Line="6" Column="31" />
+      <File FileName="Assignment2/Menu.cs" Line="6" Column="28" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

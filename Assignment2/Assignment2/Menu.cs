@@ -4,11 +4,14 @@ namespace Assignment2
 
     public class Menu{
         private int choice;
+        private bool showDisplay = true;
 
         public void Start(){
-            ShowMenu();
-            readUserInput();
-            handleDisplay();
+            while (showDisplay){
+                ShowMenu();
+                readUserInput();
+                handleDisplay();
+            }
         }
         private void ShowMenu(){
             Console.WriteLine("----------------------------------------");
@@ -31,6 +34,7 @@ namespace Assignment2
             switch (choice)
             {
                 case 0:
+                    showDisplay = false;
                     break;
                 case 1:
                     WholeNumbersForAdd wholeNumbersForAdd = new WholeNumbersForAdd();
