@@ -3,8 +3,8 @@ namespace Assignment2
 {
     public class WholeNumbersForAdd
     {
-        public WholeNumbersForAdd()
-        {
+        public WholeNumbersForAdd(){
+            Console.WriteLine("In WholeNumbersForAdd");
         }
     }
 }
