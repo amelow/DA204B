@@ -1,0 +1,6 @@
+/Users/amelielowe/Documents/VisualStudio/Assignment1/Assignment1/bin/Debug/Assignment1.exe
+/Users/amelielowe/Documents/VisualStudio/Assignment1/Assignment1/bin/Debug/Assignment1.pdb
+/Users/amelielowe/Documents/VisualStudio/Assignment1/Assignment1/obj/x86/Debug/Assignment1.csprojAssemblyReference.cache
+/Users/amelielowe/Documents/VisualStudio/Assignment1/Assignment1/obj/x86/Debug/Assignment1.csproj.CoreCompileInputs.cache
+/Users/amelielowe/Documents/VisualStudio/Assignment1/Assignment1/obj/x86/Debug/Assignment1.exe
+/Users/amelielowe/Documents/VisualStudio/Assignment1/Assignment1/obj/x86/Debug/Assignment1.pdb

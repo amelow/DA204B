@@ -1,0 +1,18 @@
+﻿<Properties StartupConfiguration="{6196E9F7-02C9-4E11-92E9-B2CEFC7450E1}|Default">
+  <MonoDevelop.Ide.ItemProperties.Part1 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.Part2 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assignment1/Pet.cs">
+    <Files>
+      <File FileName="Part2/Movie.cs" Line="62" Column="64" />
+      <File FileName="Part2/MovieMain.cs" Line="14" Column="40" />
+      <File FileName="Assignment1/Pet.cs" Line="33" Column="38" />
+      <File FileName="Assignment1/PetMain.cs" Line="9" Column="55" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
