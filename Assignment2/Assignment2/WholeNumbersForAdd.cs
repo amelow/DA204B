@@ -1,7 +1,19 @@
 ﻿using System;
 namespace Assignment2
 {
+/*
+ * Second assignment for the Introduction to C#(DA204B) course at the University of Malmö.
+ * Author: Amelie Löwe
+ * Date: 2019-02-10. 
+ */
     public class WholeNumbersForAdd{
+        /* Following criteria needs to be met by this class:
+         * Read the number of integer values to add.
+         * Read each value and add to the sum.
+         * Display the total sum.
+         * Return to the main menu.  
+         * Mandatory: for-loop & int or long for the numbers.
+        */
         private int sumOfNumbers;
         private int numOfInput;
         private int index;

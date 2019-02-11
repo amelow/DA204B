@@ -42,6 +42,7 @@ namespace Assignment2
                     break;
                 case 2:
                     FloatingPointsNumberWhileAdd floatingPointsNumberWhileAdd = new FloatingPointsNumberWhileAdd();
+                    floatingPointsNumberWhileAdd.Start();
                     break;
                 case 3:
                     CurrencyConverter currencyConverter = new CurrencyConverter();
