@@ -19,6 +19,19 @@ namespace Assignment2
 
         public void Start(){
             Console.WriteLine("In CurrencyConverter Class");
+            ShowProgramInfo();
+            DisplayResult();
+        }
+        public void ShowProgramInfo() {
+            Console.WriteLine("\n\n +++++++++ Currency Converter +++++++++");
+            Console.WriteLine("\n            Using a do-while-statement \n");
+            Console.WriteLine("++++++++++++++++++++++++++++++++++++++++++++++++++ ");
+
+        }
+        private void DisplayResult(){
+         //   Console.WriteLine("Sum of all numbers:" + sumOfNumbers);
+            Console.WriteLine("++++++++++++++++++++++++++++++++++++++++++++++++++ \n");
+
         }
     }
 }
