@@ -11,10 +11,18 @@ namespace Assignment2
          * When the user writes in a zero value, sum up the numbers.
          * Display the result
          * Return to the Main Menu.
-         * Mandatory: whileloop & doubletype for the numbers.        
+         * Mandatory: whileloop & double type for the numbers.        
           */
+        private int sumOfNumbers;
+
         public void Start() {
             Console.WriteLine("In FloatingPointsNumberWhileAdd Class ");
+            ShowProgramInfo();
+        }
+        private void ShowProgramInfo(){
+            Console.WriteLine("\n\n +++++++++ Summation of Float numbers +++++++++");
+            Console.WriteLine("\n             Using a while-statement \n");
+            Console.WriteLine("++++++++++++++++++++++++++++++++++++++++++++++++++ ");
         }
     }
 }
