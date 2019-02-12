@@ -5,8 +5,7 @@ namespace Assignment2
  * Author: Amelie Löwe
  * Date: 2019-02-10. 
  */
-    public class FloatingPointsNumberWhileAdd
-    {
+    public class FloatingPointsNumberWhileAdd{
         /*
          * Repeat to read a number from the user into your program.
          * When the user writes in a zero value, sum up the numbers.
@@ -18,33 +17,29 @@ namespace Assignment2
         private bool isDone = false;
         private double input;
 
-        public void Start()
-        {
+        public void Start(){
             Console.WriteLine("In FloatingPointsNumberWhileAdd Class ");
             ShowProgramInfo();
-            ReadInput();
-            //  CalculateNumbers();
+            ReadInputAndSum();
             DisplayResult();
         }
-        private void ShowProgramInfo()
-        {
+        private void ShowProgramInfo(){
             Console.WriteLine("\n\n +++++++++ Summation of Float numbers +++++++++");
             Console.WriteLine("\n             Using a while-statement \n");
             Console.WriteLine("++++++++++++++++++++++++++++++++++++++++++++++++++ ");
         }
-        private void ReadInput(){
-            while (!isDone) {
+        private void ReadInputAndSum(){
+            while (!isDone){
                 Console.Write("Write a number to add to the sum, end with a 0: ");
                 input = double.Parse(Console.ReadLine());
                 sumOfNumbers += input;
 
-                if ((input) == 0.0){
+                if ((Math.Round(input, 7) == 0.0)){
                     isDone = true;
                 }
             }
         }
-        private void DisplayResult()
-        {
+        private void DisplayResult(){
             Console.WriteLine("Sum of all numbers:" + sumOfNumbers);
             Console.WriteLine("++++++++++++++++++++++++++++++++++++++++++++++++++ \n");
 
