@@ -53,14 +53,13 @@ namespace Assignment2
         }
         private void ConvertCurrency(){
             Console.WriteLine("Calculating new Currency....");
-            // exchange rate: value = sum / rate
             convertedCurr = (sumOfNumbers / convertionRate);
 
 
         }
         private void DisplayResult(){
             Console.WriteLine("Sum of all of the money: " + sumOfNumbers + " SEK");
-            Console.WriteLine("Exchange rate from SEK to " + nameForeignCurr+ " is " + convertionRate);
+            Console.WriteLine("Exchange rate from SEK to " + nameForeignCurr+ " is " + convertionRate + " SEK/"+ nameForeignCurr);
             Console.WriteLine("The sum of the converted currency is " + convertedCurr + " " + nameForeignCurr);
 
             Console.WriteLine("++++++++++++++++++++++++++++++++++++++++++++++++++ \n");

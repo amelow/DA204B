@@ -1,9 +1,8 @@
 ﻿<Properties StartupConfiguration="{ED1607A1-7078-4FA4-AAAD-8F61EA830946}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="Assignment2/CurrencyConverter.cs">
     <Files>
-      <File FileName="Assignment2/Menu.cs" Line="45" Column="58" />
-      <File FileName="Assignment2/CurrencyConverter.cs" Line="5" Column="10" />
-      <File FileName="Assignment2/FloatingPointsNumberWhileAdd.cs" Line="8" Column="17" />
+      <File FileName="Assignment2/Menu.cs" Line="26" Column="66" />
+      <File FileName="Assignment2/CurrencyConverter.cs" Line="64" Column="95" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
