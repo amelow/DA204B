@@ -17,7 +17,7 @@ namespace Assignment2
          * Mandatory: do – whileloop & decimal type for the numbers. 
         */
 
-        public CurrencyConverter(){
+        public void Start(){
             Console.WriteLine("In CurrencyConverter Class");
         }
     }

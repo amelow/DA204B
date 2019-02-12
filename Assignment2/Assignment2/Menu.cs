@@ -21,12 +21,12 @@ namespace Assignment2{
             Console.WriteLine("----------------------------------------");
             Console.WriteLine("\n             MAIN MENU");
             Console.WriteLine("\n ----------------------------------------");
-            Console.WriteLine("Exit the program: 0");
-            Console.WriteLine("Whole numbers with for: 1");
-            Console.WriteLine("Floating point numbers with while: 2");
+            Console.WriteLine("Exit the program:                      0");
+            Console.WriteLine("Whole numbers with for- statement:     1");
+            Console.WriteLine("Floating point numbers with while-loop:2");
             Console.WriteLine("Currency converter with do-while loop: 3");
-            Console.WriteLine("Work schedule: 4");
-            Console.WriteLine("Temperature table: 5");
+            Console.WriteLine("Work schedule:                         4");
+            Console.WriteLine("Temperature table:                     5");
             Console.WriteLine("\n ----------------------------------------");
         }
         private void readUserInput(){
@@ -50,6 +50,7 @@ namespace Assignment2{
                     break;
                 case 3:
                     CurrencyConverter currencyConverter = new CurrencyConverter();
+                    currencyConverter.Start();
                     break;
                 case 4:
                     WorkingSchedule workingSchedule = new WorkingSchedule();
