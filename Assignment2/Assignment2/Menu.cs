@@ -31,7 +31,8 @@ namespace Assignment2{
         }
         private void readUserInput(){
             Console.WriteLine("Your choice: ");
-            choice = int.Parse(Console.ReadLine());
+            choice = Input.ReadIntegerConsole();
+
 
         }
         private void handleDisplay(){
