@@ -1,9 +1,7 @@
 ﻿<Properties StartupConfiguration="{ED1607A1-7078-4FA4-AAAD-8F61EA830946}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="WorkingScheduleMenu.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TemperatureTable.cs">
     <Files>
-      <File FileName="TemperatureTable.cs" Line="17" Column="12" />
-      <File FileName="WorkingSchedule.cs" Line="48" Column="31" />
-      <File FileName="WorkingScheduleMenu.cs" Line="33" Column="48" />
+      <File FileName="TemperatureTable.cs" Line="20" Column="10" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

@@ -11,7 +11,7 @@ namespace Assignment2{
         private int choiceWeekends = 1;
         private int ChoiceNights = 2;
         private int firstWeekOne = 1;
-        private int firstWeekSix = 1;
+        private int firstWeekSix = 6;
         private int lastWeek = 52;
         private int thirdWeek= 3;
         private int fiftWeek= 5;
@@ -41,7 +41,12 @@ namespace Assignment2{
             }
         }
         private void DisplayInfo(int start, int end, int frequency){
-            Console.WriteLine("You are going to work following weeks:  ");
+            if(start== 6){
+                Console.WriteLine("You are going to work nights on following weeks:  ");
+            }else if(start == 1){
+                Console.WriteLine("You are going to work weekends on following weeks:  ");
+            }
+
             for (int i = start; i < end; i += frequency){
                 Console.Write("Week" + i + "\n ");
             }
