@@ -16,26 +16,36 @@ namespace Assignment2{
         private int thirdWeek= 3;
         private int fiftWeek= 5;
         private int menuInput;
+       
 
-        public void  Start(){
+      public WorkingSchedule(int menuInput){
+            this.menuInput = menuInput;
+        }
+
+        public void Start(){
+            Console.WriteLine("In Working Schedule Class ");
             ShowProgramInfo();
             ReadInput();
-
           }
+      
         private void ShowProgramInfo(){
             Console.WriteLine("\n\n +++++++++ Working Schedule +++++++++");
             Console.WriteLine("\n                                      \n");
             Console.WriteLine("+++++++++++++++++++++++++++++++++++++++++\t");
         }
         private void ReadInput(){
-            if (menuInput == choiceWeekends){
+           if (menuInput == ChoiceNights){
+           DisplayInfo(firstWeekSix, lastWeek, fiftWeek);
+            }else if (menuInput == choiceWeekends){
                 DisplayInfo(firstWeekOne, lastWeek, thirdWeek);
-          } else if (menuInput==ChoiceNights){
-                DisplayInfo(firstWeekSix, lastWeek,)
-
             }
         }
         private void DisplayInfo(int start, int end, int frequency){
+            Console.WriteLine("You are going to work following weeks:  ");
+            for (int i = start; i < end; i += frequency){
+                Console.Write("Week" + i + "\n ");
+            }
+            Console.WriteLine("+++++++++++++++++++++++++++++++++++++++++\t");
         }
     }
 }

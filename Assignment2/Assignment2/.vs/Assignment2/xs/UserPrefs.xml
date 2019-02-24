@@ -1,11 +1,9 @@
 ﻿<Properties StartupConfiguration="{ED1607A1-7078-4FA4-AAAD-8F61EA830946}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Input.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="WorkingScheduleMenu.cs">
     <Files>
-      <File FileName="TemperatureTable.cs" Line="17" Column="51" />
-      <File FileName="WorkingSchedule.cs" Line="15" Column="33" />
-      <File FileName="WorkingScheduleMenu.cs" Line="13" Column="34" />
-      <File FileName="FloatingPointsNumberWhileAdd.cs" Line="17" Column="37" />
-      <File FileName="Input.cs" Line="34" Column="1" />
+      <File FileName="TemperatureTable.cs" Line="17" Column="12" />
+      <File FileName="WorkingSchedule.cs" Line="48" Column="31" />
+      <File FileName="WorkingScheduleMenu.cs" Line="33" Column="48" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

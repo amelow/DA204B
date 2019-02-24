@@ -54,7 +54,8 @@ namespace Assignment2{
                     currencyConverter.Start();
                     break;
                 case 4:
-                    WorkingSchedule workingSchedule = new WorkingSchedule();
+                    WorkingScheduleMenu workingScheduleMenu = new WorkingScheduleMenu();
+                    workingScheduleMenu.Start();
                     break;
                 case 5:
                     TemperatureTable temperatureTable = new TemperatureTable();
