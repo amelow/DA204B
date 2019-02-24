@@ -15,7 +15,10 @@ namespace Assignment2
 
         private bool isWorkMenu = true;
         private int menuInput;
-
+     /*
+      * Method that calls all of the other mehods used in this class.
+      * It also checks if the user still wants to be in this menu or not.
+      */
         public void Start(){
             while (isWorkMenu){
                 DisplayMenu();
@@ -29,16 +32,20 @@ namespace Assignment2
             Console.WriteLine("To Show a list of the weekends to work, press 2");
             Console.WriteLine("To return to main menu, press 0");
         }
+      /*
+       * Method for reading the users input, then checking the input and sending the choice as a parameter back to the 
+       * workingSchedule class. 
+       */
         private void ReadInput(){
             Console.Write("\n Which one do you want to see? : ");
-            menuInput = Input.ReadIntegerConsole();
+            menuInput = Input.ReadIntegerConsole(); // using the Input.cs class to check if it is a correct input
             Console.Write("\n You chose number: " + menuInput);
 
             if ((menuInput == 1 || menuInput == 2)){
                 WorkingSchedule workingSchedule = new WorkingSchedule(menuInput);
                 workingSchedule.Start();
             }
-            else if (menuInput == 0){
+            else if (menuInput == 0){ // going back to the main menu again
                 isWorkMenu = false;
                 Console.Write("\n Okay im taking you back to the main menu \n ");
             }

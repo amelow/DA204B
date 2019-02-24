@@ -22,7 +22,9 @@ namespace Assignment2
         private decimal convertionRate;
         private decimal convertedCurr;
 
-
+      /*
+       * Method that calls all of the other mehods used in this class    
+       */
         public void Start(){
             Console.WriteLine("In CurrencyConverter Class");
             ShowProgramInfo();
@@ -30,12 +32,17 @@ namespace Assignment2
             ConvertCurrency();
             DisplayResult();
         }
+        /*
+         * Method for displaying the Converters header
+         */
         public void ShowProgramInfo() {
             Console.WriteLine("\n\n +++++++++ Currency Converter +++++++++");
             Console.WriteLine("\n        Using a do-while-statement \n");
             Console.WriteLine("++++++++++++++++++++++++++++++++++++++++++ ");
-
         }
+        /*
+        * Method for reading different user input, such as the conversion rate and the foreign currency 
+        */
         private void ReadInput(){
             Console.WriteLine("Name of the currency you want to convert your money to (ex. USD)");
             nameForeignCurr = Console.ReadLine();
@@ -51,12 +58,18 @@ namespace Assignment2
 
 
         }
+       /*
+       * Method for converting the given cuurency from SEK
+       */
         private void ConvertCurrency(){
             Console.WriteLine("Calculating new Currency....");
             convertedCurr = (sumOfNumbers / convertionRate);
 
 
         }
+     /*
+      * Displaying the results from the convertions
+      */
         private void DisplayResult(){
             Console.WriteLine("Sum of all of the money: " + sumOfNumbers + " SEK");
             Console.WriteLine("Exchange rate from SEK to " + nameForeignCurr+ " is " + convertionRate + " SEK/"+ nameForeignCurr);

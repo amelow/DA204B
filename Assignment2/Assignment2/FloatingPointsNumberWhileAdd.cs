@@ -17,6 +17,9 @@ namespace Assignment2
         private bool isDone = false;
         private double input;
 
+      /*
+      * Method that calls all of the other mehods used in this class    
+      */
         public void Start(){
             Console.WriteLine("In FloatingPointsNumberWhileAdd Class ");
             ShowProgramInfo();
@@ -28,6 +31,9 @@ namespace Assignment2
             Console.WriteLine("\n             Using a while-statement \n");
             Console.WriteLine("++++++++++++++++++++++++++++++++++++++++++++++++++ ");
         }
+      /*
+       * Method for reading the users input, and then adding them together.      
+       */
         private void ReadInputAndSum(){
             while (!isDone){
                 Console.Write("Write a number to add to the sum, end with a 0: ");

@@ -17,31 +17,46 @@ namespace Assignment2{
         private double celsius;
         private double fahrenheit;
         private int frequency = 4;
-       
 
+        /*
+        * Method that calls all of the other mehods used in this class    
+        */
         public void Start() {
             Console.WriteLine("In TemperatureTable Class ");
             ShowProgramInfo();
             TemperatureMenu();
             ReadInput();
-            Convertions();
-            
+            Convertions();   
         }
+        /*
+         * Method for displaying the Temperature converters header
+         */
         private void ShowProgramInfo(){
             Console.WriteLine("\n\n +++++++++ Temperature Conversions +++++++++");
             Console.WriteLine("\n                                              \n");
             Console.WriteLine("++++++++++++++++++++++++++++++++++++++++++++++++++ ");
         }
+        /*
+         * A smaller menu for choosing what kind of convertions the user wants.
+         * When pressed either 1 or 2 the values will be displayed and then the user gets directly 
+         * returned to the main menu
+         */
         private void TemperatureMenu(){
             Console.WriteLine("To convert from Celsius to Fahrenheit, press 1.\n");
             Console.WriteLine("To convert from Fahrenheit to Celsius, press 2.");
         }
+        /*
+         * Method for displaying the Converters header
+         */
         private void ReadInput(){
             Console.Write("\n Which conversions do you want to use : ");
             menuInput = Input.ReadDoubleConsole();
             Console.Write("\n You chose number: " + menuInput);
             Console.WriteLine("\n ");
         }
+        /*
+         * Basically showing a header for the differerent types of conversions, depending on the users input
+         */
         private void Convertions(){
             if (menuInput == 1){
                 Console.WriteLine("\n\n +++++++++++++++++++++++++++++++++++++++");
@@ -56,19 +71,27 @@ namespace Assignment2{
                 ConvertFahToCel();
             }
         }
+        /*
+         * Method for looping thru the 100 first temperatures (0-100) at the frequency or rate of 4. 
+         * Then converting from celcius to fahrenheit by using the formula and printing it as a table.
+         */
         private void ConvertCelToFah(){
             for (int i = 0; i <= 100; i += frequency){
                 fahrenheit = (9.0 / 5.0) *(i + 32);
-                Console.WriteLine((i).ToString() +
-                    "°C" + "       " + fahrenheit.ToString() + "°F");
+                Console.WriteLine((i) + "°C" + "       " + fahrenheit+ "°F");
             }
 
         }
+        /*
+         * Method for looping thru the 100 first temperatures (0-100) at the frequency or rate of 4. 
+         * Then converting from fahrenheit to celcius by using the formula and printing it as a table.
+         * Here i had to use toString(0.00) after celcius otherwise it would have printed way to many decimals. 
+         * I tried Math.round but that gives no decimals and i didnt know if that was allowed :)
+         */
         private void ConvertFahToCel(){
             for (int i = 0; i <= 100; i += frequency){
                 celsius = (5.0 / 9.0) * (i - 32);
-                Console.WriteLine((i).ToString() +
-                    "°F" + "        " + celsius.ToString() + "°C");
+                Console.WriteLine((i) +"°F" + "       " + celsius.ToString("0.00") + "°C");
             }
 
         }

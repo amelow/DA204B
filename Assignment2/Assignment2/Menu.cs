@@ -17,7 +17,10 @@ namespace Assignment2{
                 handleDisplay();
             }
         }
-        private void ShowMenu(){
+        /*
+         * Method for displaying the Main menu and the choices the user can make       
+         */
+        private void ShowMenu(){ 
             Console.WriteLine("----------------------------------------");
             Console.WriteLine("\n             MAIN MENU");
             Console.WriteLine("\n ----------------------------------------");
@@ -29,12 +32,18 @@ namespace Assignment2{
             Console.WriteLine("Temperature table:                     5");
             Console.WriteLine("\n ----------------------------------------");
         }
+        /*
+        * Method for reading the users input       
+        */
         private void readUserInput(){
             Console.WriteLine("Your choice: ");
             choice = Input.ReadIntegerConsole();
-
-
         }
+      /*
+      * The switch statement i used to handle all of the possible menu choices. 
+      * When the user provides a correct input a class get instatiated and the Start() method gets called.
+      * If the choice is 0 the program terminates.
+      */
         private void handleDisplay(){
             switch (choice)
             {

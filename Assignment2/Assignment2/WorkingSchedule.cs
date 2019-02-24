@@ -17,22 +17,29 @@ namespace Assignment2{
         private int fiftWeek= 5;
         private int menuInput;
        
-
-      public WorkingSchedule(int menuInput){
+        /*
+         * Constructor for the workingschedule class       
+         */
+      public WorkingSchedule(int menuInput){ // menu choice from the workingschedulemenu class
             this.menuInput = menuInput;
         }
 
+       /*
+       * Method that calls all of the other mehods used in this class    
+       */
         public void Start(){
             Console.WriteLine("In Working Schedule Class ");
             ShowProgramInfo();
             ReadInput();
           }
-      
         private void ShowProgramInfo(){
             Console.WriteLine("\n\n +++++++++ Working Schedule +++++++++");
             Console.WriteLine("\n                                      \n");
             Console.WriteLine("+++++++++++++++++++++++++++++++++++++++++\t");
         }
+       /*
+       * Method for reading the users input, then        
+       */
         private void ReadInput(){
            if (menuInput == ChoiceNights){
            DisplayInfo(firstWeekSix, lastWeek, fiftWeek);

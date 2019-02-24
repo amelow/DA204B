@@ -17,8 +17,10 @@ namespace Assignment2
         private int sumOfNumbers;
         private int numOfInput;
         private int index;
-       
-         public void Start(){
+        /*
+        * Method that calls all of the other mehods used in this class    
+        */
+        public void Start(){
             Console.WriteLine("In WholeNumbersForAdd Class");
             ShowProgramInfo();
             ReadInput();
@@ -30,6 +32,9 @@ namespace Assignment2
             Console.WriteLine("\n             Using a for-statement \n");
             Console.WriteLine("++++++++++++++++++++++++++++++++++++++++++++++++++ ");
         }
+       /*
+       * Method for reading the users input       
+       */
         private void ReadInput(){
             Console.WriteLine("How many numbers do you want to add?");
             numOfInput = int.Parse(Console.ReadLine());
