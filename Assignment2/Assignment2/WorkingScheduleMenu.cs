@@ -25,7 +25,9 @@ namespace Assignment2
                 ReadInput();
             }
         }
-
+        /*
+        * A new menu for just the WorkingSchedule class choices. If 0 is pressed the user gets back to the main menu.
+        */
         private void DisplayMenu(){
             Console.WriteLine("\n Select from the menu which type of schedule you want to see\n");
             Console.WriteLine("To Show a list of the nights to work, press 1");
@@ -46,7 +48,7 @@ namespace Assignment2
                 workingSchedule.Start();
             }
             else if (menuInput == 0){ // going back to the main menu again
-                isWorkMenu = false;
+                isWorkMenu = false; // cannot go thru the loop again
                 Console.Write("\n Okay im taking you back to the main menu \n ");
             }
         }

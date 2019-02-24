@@ -26,7 +26,8 @@ namespace Assignment2{
             ShowProgramInfo();
             TemperatureMenu();
             ReadInput();
-            Convertions();   
+            Convertions();
+            endMessage();
         }
         /*
          * Method for displaying the Temperature converters header
@@ -50,7 +51,7 @@ namespace Assignment2{
          */
         private void ReadInput(){
             Console.Write("\n Which conversions do you want to use : ");
-            menuInput = Input.ReadDoubleConsole();
+            menuInput = Input.ReadDoubleConsole(); // using the input class to varify the input
             Console.Write("\n You chose number: " + menuInput);
             Console.WriteLine("\n ");
         }
@@ -95,8 +96,10 @@ namespace Assignment2{
             }
 
         }
-          
-        private void DisplayResult() {
+      /*
+      * Method for displaying a end message      
+      */
+        private void endMessage() {
             Console.Write("\n Okay im taking you back to the main menu \n ");
 
             Console.WriteLine("++++++++++++++++++++++++++++++++++++++++++++++++++ \n");

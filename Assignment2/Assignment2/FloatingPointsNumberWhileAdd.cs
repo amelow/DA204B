@@ -17,7 +17,7 @@ namespace Assignment2
         private bool isDone = false;
         private double input;
 
-      /*
+     /*
       * Method that calls all of the other mehods used in this class    
       */
         public void Start(){
@@ -26,6 +26,9 @@ namespace Assignment2
             ReadInputAndSum();
             DisplayResult();
         }
+       /*
+        * Just a header for the Floatnumber class
+        */
         private void ShowProgramInfo(){
             Console.WriteLine("\n\n +++++++++ Summation of Float numbers +++++++++");
             Console.WriteLine("\n             Using a while-statement \n");
@@ -45,6 +48,10 @@ namespace Assignment2
                 }
             }
         }
+
+      /*
+       *Displaying the sum  of the float numbers added
+       */
         private void DisplayResult(){
             Console.WriteLine("Sum of all numbers:" + sumOfNumbers);
             Console.WriteLine("++++++++++++++++++++++++++++++++++++++++++++++++++ \n");

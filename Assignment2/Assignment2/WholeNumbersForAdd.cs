@@ -38,8 +38,10 @@ namespace Assignment2
         private void ReadInput(){
             Console.WriteLine("How many numbers do you want to add?");
             numOfInput = int.Parse(Console.ReadLine());
-  
         }
+     /*
+      * Method for calculating all of the whole numbers the user wants to add.     
+      */
         private void CalculateNumbers(){
             for(index = 1; index <= numOfInput; index++){
                 Console.WriteLine("Please give the value number no. " + index + " (whole number) :  ");
@@ -47,6 +49,9 @@ namespace Assignment2
             }
 
         }
+     /*
+      * Method for displaying the sum of all of the numbers   
+      */
         private void DisplayResult(){
             Console.WriteLine("Sum of all numbers:"+ sumOfNumbers);
             Console.WriteLine("++++++++++++++++++++++++++++++++++++++++++++++++++ \n");
