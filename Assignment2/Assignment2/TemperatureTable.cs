@@ -16,18 +16,21 @@ namespace Assignment2{
         public void Start() {
             Console.WriteLine("In TemperatureTable Class ");
             ShowProgramInfo();
-            DisplayResult();
+            Convertions();
+            
         }
         private void ShowProgramInfo(){
             Console.WriteLine("\n\n +++++++++ Temperature Conversions +++++++++");
             Console.WriteLine("\n                                              \n");
             Console.WriteLine("++++++++++++++++++++++++++++++++++++++++++++++++++ ");
         }
-    
-    private void DisplayResult() {
-        Console.WriteLine("Sum of all numbers:" );
+        private void Convertions(){
+
+        }
+        private void DisplayResult() {
+      
         Console.WriteLine("++++++++++++++++++++++++++++++++++++++++++++++++++ \n");
 
+        }
     }
-}
 }
