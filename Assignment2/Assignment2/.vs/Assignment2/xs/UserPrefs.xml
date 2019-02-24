@@ -1,9 +1,5 @@
 ﻿<Properties StartupConfiguration="{ED1607A1-7078-4FA4-AAAD-8F61EA830946}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="TemperatureTable.cs">
-    <Files>
-      <File FileName="TemperatureTable.cs" Line="20" Column="10" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.Assignment2 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />

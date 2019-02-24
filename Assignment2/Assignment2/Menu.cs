@@ -59,6 +59,7 @@ namespace Assignment2{
                     break;
                 case 5:
                     TemperatureTable temperatureTable = new TemperatureTable();
+                    temperatureTable.Start();
                     break; 
             }
         }

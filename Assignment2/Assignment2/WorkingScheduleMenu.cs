@@ -16,35 +16,29 @@ namespace Assignment2
         private bool isWorkMenu = true;
         private int menuInput;
 
-        public void Start()
-        {
-            while (isWorkMenu)
-            {
+        public void Start(){
+            while (isWorkMenu){
                 DisplayMenu();
-                ReadInputandSendInfo();
+                ReadInput();
             }
         }
 
-        private void DisplayMenu()
-        {
+        private void DisplayMenu(){
             Console.WriteLine("\n Select from the menu which type of schedule you want to see\n");
             Console.WriteLine("To Show a list of the nights to work, press 1");
             Console.WriteLine("To Show a list of the weekends to work, press 2");
             Console.WriteLine("To return to main menu, press 0");
         }
-        private void ReadInputandSendInfo()
-        {
+        private void ReadInput(){
             Console.Write("\n Which one do you want to see? : ");
             menuInput = Input.ReadIntegerConsole();
             Console.Write("\n You chose number: " + menuInput);
 
-            if ((menuInput == 1 || menuInput == 2))
-            {
+            if ((menuInput == 1 || menuInput == 2)){
                 WorkingSchedule workingSchedule = new WorkingSchedule(menuInput);
                 workingSchedule.Start();
             }
-            else if (menuInput == 0)
-            {
+            else if (menuInput == 0){
                 isWorkMenu = false;
                 Console.Write("\n Okay im taking you back to the main menu \n ");
             }
