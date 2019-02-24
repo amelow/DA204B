@@ -6,18 +6,36 @@ namespace Assignment2{
  * Date: 2019-02-24. 
  */
     public class WorkingSchedule{
-        /*
-         * Following program should display a list of the weeks that the user has to work,the weekends 
-         * and the weeks that she/he should work nights.  
-         * Mandatory for this task:
-         * A new menu
-         * When exiting the menu,the program should return to the Main Menu.
-         * Methods for every task as in the previous sections.
-         * Use the methods of the input class for user input
-         * Write also about motivation for the specific loop type you have used in your code.        
-         */
-        public WorkingSchedule(){
-            Console.WriteLine("In WorkingSchedule");
+     
+
+        private int choiceWeekends = 1;
+        private int ChoiceNights = 2;
+        private int firstWeekOne = 1;
+        private int firstWeekSix = 1;
+        private int lastWeek = 52;
+        private int thirdWeek= 3;
+        private int fiftWeek= 5;
+        private int menuInput;
+
+        public void  Start(){
+            ShowProgramInfo();
+            ReadInput();
+
+          }
+        private void ShowProgramInfo(){
+            Console.WriteLine("\n\n +++++++++ Working Schedule +++++++++");
+            Console.WriteLine("\n                                      \n");
+            Console.WriteLine("+++++++++++++++++++++++++++++++++++++++++\t");
+        }
+        private void ReadInput(){
+            if (menuInput == choiceWeekends){
+                DisplayInfo(firstWeekOne, lastWeek, thirdWeek);
+          } else if (menuInput==ChoiceNights){
+                DisplayInfo(firstWeekSix, lastWeek,)
+
+            }
+        }
+        private void DisplayInfo(int start, int end, int frequency){
         }
     }
 }

@@ -13,8 +13,21 @@ namespace Assignment2{
          * toCelsius = 5.0 / 9.0 * (valueToConvert - 32)  
          * toFahrenheit = 9.0 / 5.0 * valueToConvert + 32.0  
          */
-        public TemperatureTable(){
-            Console.WriteLine("In TemperatureTable");
+        public void Start() {
+            Console.WriteLine("In TemperatureTable Class ");
+            ShowProgramInfo();
+            DisplayResult();
         }
+        private void ShowProgramInfo(){
+            Console.WriteLine("\n\n +++++++++ Temperature Conversions +++++++++");
+            Console.WriteLine("\n                                              \n");
+            Console.WriteLine("++++++++++++++++++++++++++++++++++++++++++++++++++ ");
+        }
+    
+    private void DisplayResult() {
+        Console.WriteLine("Sum of all numbers:" );
+        Console.WriteLine("++++++++++++++++++++++++++++++++++++++++++++++++++ \n");
+
     }
+}
 }
