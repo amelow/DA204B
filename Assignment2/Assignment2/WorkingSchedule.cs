@@ -66,7 +66,7 @@ namespace Assignment2{
                 Console.WriteLine("You are going to work weekends on following weeks:  ");
             }
 
-            for (int i = start; i < end; i += frequency){
+            for (int i = start; i <= end; i += frequency){
                 Console.Write("Week" + i + "\n ");
             }
             Console.WriteLine("+++++++++++++++++++++++++++++++++++++++++\t");

@@ -30,8 +30,8 @@ namespace Assignment2
         */
         private void DisplayMenu(){
             Console.WriteLine("\n Select from the menu which type of schedule you want to see\n");
-            Console.WriteLine("To Show a list of the nights to work, press 1");
-            Console.WriteLine("To Show a list of the weekends to work, press 2");
+            Console.WriteLine("To Show a list of the weekends to work, press 1");
+            Console.WriteLine("To Show a list of the nights to work, press 2");
             Console.WriteLine("To return to main menu, press 0");
         }
       /*
