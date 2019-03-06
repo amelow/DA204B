@@ -3,11 +3,7 @@
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="Assignment2" expanded="True">
-            <Node name="Assignment2" expanded="True">
-              <Node name="WorkingScheduleMenu.cs" selected="True" />
-            </Node>
-          </Node>
+          <Node />
         </State>
       </Pad>
     </Pads>
