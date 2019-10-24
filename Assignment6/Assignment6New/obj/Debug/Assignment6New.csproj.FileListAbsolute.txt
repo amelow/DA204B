@@ -1,0 +1,11 @@
+C:\Users\Nicol\source\repos\Assignment6New\Assignment6New\bin\Debug\Assignment6New.exe.config
+C:\Users\Nicol\source\repos\Assignment6New\Assignment6New\bin\Debug\Assignment6New.exe
+C:\Users\Nicol\source\repos\Assignment6New\Assignment6New\bin\Debug\Assignment6New.pdb
+C:\Users\Nicol\source\repos\Assignment6New\Assignment6New\obj\Debug\Assignment6New.csprojAssemblyReference.cache
+C:\Users\Nicol\source\repos\Assignment6New\Assignment6New\obj\Debug\Assignment6New.AboutBox.resources
+C:\Users\Nicol\source\repos\Assignment6New\Assignment6New\obj\Debug\Assignment6New.FormMain.resources
+C:\Users\Nicol\source\repos\Assignment6New\Assignment6New\obj\Debug\Assignment6New.Properties.Resources.resources
+C:\Users\Nicol\source\repos\Assignment6New\Assignment6New\obj\Debug\Assignment6New.csproj.GenerateResource.cache
+C:\Users\Nicol\source\repos\Assignment6New\Assignment6New\obj\Debug\Assignment6New.csproj.CoreCompileInputs.cache
+C:\Users\Nicol\source\repos\Assignment6New\Assignment6New\obj\Debug\Assignment6New.exe
+C:\Users\Nicol\source\repos\Assignment6New\Assignment6New\obj\Debug\Assignment6New.pdb

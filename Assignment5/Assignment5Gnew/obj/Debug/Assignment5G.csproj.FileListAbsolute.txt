@@ -1,0 +1,10 @@
+C:\Users\Nicol\source\repos\Assignment5G\Assignment5G\bin\Debug\Assignment5G.exe.config
+C:\Users\Nicol\source\repos\Assignment5G\Assignment5G\bin\Debug\Assignment5G.exe
+C:\Users\Nicol\source\repos\Assignment5G\Assignment5G\bin\Debug\Assignment5G.pdb
+C:\Users\Nicol\source\repos\Assignment5G\Assignment5G\obj\Debug\Assignment5G.csprojAssemblyReference.cache
+C:\Users\Nicol\source\repos\Assignment5G\Assignment5G\obj\Debug\Assignment5G.Properties.Resources.resources
+C:\Users\Nicol\source\repos\Assignment5G\Assignment5G\obj\Debug\Assignment5G.csproj.GenerateResource.cache
+C:\Users\Nicol\source\repos\Assignment5G\Assignment5G\obj\Debug\Assignment5G.csproj.CoreCompileInputs.cache
+C:\Users\Nicol\source\repos\Assignment5G\Assignment5G\obj\Debug\Assignment5G.exe
+C:\Users\Nicol\source\repos\Assignment5G\Assignment5G\obj\Debug\Assignment5G.pdb
+C:\Users\Nicol\source\repos\Assignment5G\Assignment5G\obj\Debug\Assignment5G.MainForm.resources
